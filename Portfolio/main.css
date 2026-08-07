@@ -1,10 +1,13 @@
 body{
     font-family:sans-serif;
+    background-color: #0B0D15;
 }
+
 .conteiner{
     width:1140px;
     margin:0 auto;
 }
+
 .clearfix{
     clear:both;
 }
@@ -14,10 +17,12 @@ body{
 .main-header__brand{
     display:inline;
     vertical-align:middle;
+    text-decoration:none;
 }
 .main-header__brand img{
     width:120px;
     height:52px;
+    text-decoration:none;
 }
 .main-navigation{
     display:inline-block;
@@ -28,7 +33,7 @@ body{
     padding:10px;
 }
 .main-navigation__item a{
-    color:rgb(2, 18, 18);
+    color:rgb(255, 255, 255);
     text-decoration:none;
     text-transform:uppercase;
     font-size:12px;
@@ -48,9 +53,12 @@ body{
     float:left;
 }
 .main-section__image img{
-    width:660px;
-    height:660px;
+    display:inline-block;
+    width:460px;
+    height:460px;
     text-align:right;
+    margin-left:288px;
+    margin-bottom:25px;
 }
 .main-section__welcome{
     color:rgb(68, 10, 107);
@@ -83,4 +91,45 @@ body{
     padding:20px 40px;
     cursor:pointer;
     border-radius:5px;
+}
+.follow-items{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+.follow{
+    display:inline-block;
+}
+.follow__item{
+    display:inline-block;
+}
+.follow__item a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #151522;
+    border: 1px solid #29293b;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+    text-decoration:none;
+}
+.follow__item a:hover{
+    color: #fff;
+    border-color: #7c3aed;
+    background: linear-gradient(135deg, #7c3aed, #2563eb);
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+}
+.follow-me__section{
+    vertical-align:middle;
+    text-transform:uppercase;
+    font-size:12px;
+    border:none;
+    border-radius:5px;
+    color:rgb(35, 14, 55);
+    margin-left:10px;
 }
