@@ -19,9 +19,18 @@ body{
 
 /* Main header */
 header{
-    background: rgba(8, 10, 18, 0.85);
+    background-color: rgba(8, 10, 18, 0.85);
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
+
+.main-header{
+     position:fixed;
+     background-color:#080a12;
+     top:0;
+     left:0;
+     width:100%
+}
+
 .main-header__logo img{
     width:110px;
     height:60px;
@@ -175,3 +184,4 @@ header{
 }
 
 /* About me section */
+
