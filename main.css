@@ -6,7 +6,7 @@ body{
     font-family: Arial, sans-serif;
 }
 .conteiner{
-    width:1140px;
+    width:1300px;
     margin:0 auto;
 }
 .to-uppercase{
@@ -183,3 +183,29 @@ header{
     color:#797979;
 }
     
+/* About me section 
+.about-me__information{
+    margin-top:10px;
+    border:3px solid rgba(124, 58, 237, 0.25);
+    display:inline-block;
+    width:800px;
+    height:500px;
+}
+.about-me__header{
+    position:relative;
+    left:390px;
+    top:80px;
+}
+.about-me__image img{
+    display:inline-block;
+    height:500px;
+    width:350px;
+    position:relative;
+    bottom:85px;
+}
+.about-me__info{
+    position:relative;
+    left:390px;
+    bottom:430px;
+}
+    */
